@@ -1,0 +1,14 @@
+[
+    { "producto": "iPhone 11", "precio": 400 },
+    { "producto": "iPhone 12", "precio": 550 },
+    { "producto": "iPhone 13", "precio": 700 },
+    { "producto": "iPhone 14", "precio": 800 },
+    { "producto": "iPad 3", "precio": 400 },
+    { "producto": "iPad 4", "precio": 500 },
+    { "producto": "iPad 5", "precio": 600 },
+    { "producto": "iPad 6", "precio": 700 },
+    { "producto": "iMac 2019", "precio": 600 },
+    { "producto": "iMac 2020", "precio": 800 },
+    { "producto": "iMac 2021", "precio": 1000 },
+    { "producto": "iMac 2022", "precio": 1200 }
+]
