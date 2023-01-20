@@ -130,8 +130,8 @@ function addToCart() {
             const productoComprado = {
                 id: itemCompradoId,
                 producto: itemCompradoNombre,
-                precio: itemCompradoPrecio,
-                imagen: itemCompradoImagen
+                precio: itemCompradoPrecio
+                //imagen: itemCompradoImagen
             }
 
             carritoDeCompras.push(productoComprado)
