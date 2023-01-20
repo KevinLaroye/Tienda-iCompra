@@ -1,14 +1,14 @@
 [
-    { "producto": "iPhone 11", "precio": 400 },
-    { "producto": "iPhone 12", "precio": 550 },
-    { "producto": "iPhone 13", "precio": 700 },
-    { "producto": "iPhone 14", "precio": 800 },
-    { "producto": "iPad 3", "precio": 400 },
-    { "producto": "iPad 4", "precio": 500 },
-    { "producto": "iPad 5", "precio": 600 },
-    { "producto": "iPad 6", "precio": 700 },
-    { "producto": "iMac 2019", "precio": 600 },
-    { "producto": "iMac 2020", "precio": 800 },
-    { "producto": "iMac 2021", "precio": 1000 },
-    { "producto": "iMac 2022", "precio": 1200 }
+    { "producto": "iPhone 11", "precio": 400, "imagen": "https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp" },
+    { "producto": "iPhone 12", "precio": 550, "imagen": "https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp" },
+    { "producto": "iPhone 13", "precio": 700, "imagen": "https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp" },
+    { "producto": "iPhone 14", "precio": 800, "imagen": "https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp" },
+    { "producto": "iPad 3", "precio": 400, "imagen": "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { "producto": "iPad 4", "precio": 500, "imagen": "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { "producto": "iPad 5", "precio": 600, "imagen": "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { "producto": "iPad 6", "precio": 700, "imagen": "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { "producto": "iMac 2019", "precio": 600, "imagen": "https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { "producto": "iMac 2020", "precio": 800, "imagen": "https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { "producto": "iMac 2021", "precio": 1000, "imagen": "https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { "producto": "iMac 2022", "precio": 1200, "imagen": "https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg?auto=compress&cs=tinysrgb&w=600" }
 ]
