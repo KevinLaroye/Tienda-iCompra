@@ -72,15 +72,21 @@ function pintarCarrito() {
 
         nuevoDiv.className = "card mb-3"
 
-        nuevoDiv.innerHTML = `
-                        <div class="card-body">
-                          <div class="d-flex justify-content-between">
-                            <div class="d-flex flex-row align-items-center">
-                              <div>
+        /* 
+        Código para agregar una imágen a cada card dentro del carrito. No funciona ya que arroja el error GET http://127.0.0.1:5500/[object%20Object] 404 (Not Found)
+
+                            <div>
                                 <img
                                   src="${producto.producto}"
                                   class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
                               </div>
+        */
+
+
+        nuevoDiv.innerHTML = `
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-row align-items-center">
                               <div class="ms-3">
                                 <h5>${producto.producto}</h5>
                               </div>
@@ -117,8 +123,7 @@ function addToCart() {
             let itemComprado = botonPresionado.parentElement.parentElement.parentElement
             let itemCompradoNombre = itemComprado.getElementsByClassName("itemNombre")[0].innerText
             let itemCompradoPrecio = itemComprado.getElementsByClassName("itemPrecio")[0].innerText
-            let itemCompradoImagen = itemComprado.getElementsByClassName("itemImagen")[0].src
-            console.log(itemCompradoImagen)
+            // let itemCompradoImagen = itemComprado.getElementsByClassName("itemImagen")[0].src
             
             let itemCompradoId = Math.floor(Math.random() * 101)
 
@@ -163,8 +168,6 @@ function eliminarCarrito() {
     shoppingCart.addEventListener("click", e => {
 
         if (e.target.parentElement.classList.contains("btnRemover")) {
-
-            console.log(e.target.parentElement)
 
             let btnRemoverId = e.target.parentElement.getAttribute("id")
 
